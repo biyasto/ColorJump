@@ -4,5 +4,8 @@
   "version": "3.6.2",
   "creator": {
     "version": "3.6.2"
+  },
+  "dependencies": {
+    "cc": "^3.0.1"
   }
 }

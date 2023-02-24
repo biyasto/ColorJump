@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, Vec3 } from 'cc';
-import { SceneManager, GameColors } from './SceneManager';
+import { SceneManager, GameColors } from '../SceneManager';
 const { ccclass, property } = _decorator;
 
 @ccclass('BallModel')
@@ -12,7 +12,7 @@ export class BallModel extends Component {
         this._color = GameColors.BLUE;
     }
 
-    
+
     public GetBallDirection() {
         return this._direction>0 ? 1 : -1;
     }
@@ -23,14 +23,14 @@ export class BallModel extends Component {
           newColor= Math.floor(Math.random() * GameColors.COLOR_NUMBER+1);
         }
         while(false) //todo: check opposite wall have this color
-        
+
         console.log(this._color + " - :" +newColor);
         this._color = newColor;
-        
+
     }
     private randomColor()
     {
-        return 
+        return
     }
     update(deltaTime: number) {
         var timer;
