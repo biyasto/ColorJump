@@ -17,7 +17,7 @@ export class WallModel extends Component {
         [0, 1, 0,-1,-1,-1], //wall left
         [1, 2, 0,-1,-1,-1]  // wall right
     ];
-    public _wallNumber = [5,4];
+    public _wallNumber = [3,3];
 
 
     //singleton
